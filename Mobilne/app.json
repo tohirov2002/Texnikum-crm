@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Timefast",
+    "slug": "timefast",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c0c18"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "uz.timefast.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0c0c18"
+      },
+      "package": "uz.timefast.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "scheme": "timefast",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2a7fd5ad-66f0-4d7a-9313-eb85e4530c35"
+      }
+    }
+  }
+}
